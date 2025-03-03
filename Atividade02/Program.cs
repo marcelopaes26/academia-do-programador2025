@@ -5,6 +5,7 @@ public class Atividade02
 
     private static Random rnd = new Random();
 
+    //Função para jogar o dado a cada rodada
     public static int JogarDado()
     {
         int valorDado = rnd.Next(1, 7);

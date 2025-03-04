@@ -9,7 +9,7 @@ public class Atividade02
     //Função para jogar o dado a cada rodada
     public static int JogarDado()
     {
-        // Cria a variável valorDado atribuindo o valor da instância rnd utilizando a função Next
+        // Cria a variável valorDado atribuindo o valor da instância rnd utilizando o método Next
         // passando os parâmetros 1 e 7 para gerar números aleatórios de 1 a 6
         int valorDado = rnd.Next(1, 7);
         Console.WriteLine($"Número do dado: {valorDado}");
@@ -53,7 +53,7 @@ public class Atividade02
     {
         int jogador = 0, computador = 0, rodada = 1;
         
-        // Cria uma constante com o valor fixo 30
+        // Cria uma constante do tipo inteiro com o valor fixo 30
         const int tamanhoPista = 30;
 
         do
@@ -89,7 +89,7 @@ public class Atividade02
             // Incrementa o número de rodadas
             rodada++;
 
-        // Condição para continuar o loop até o jogador ou computador ter o valor maior que tamanhoPista
+        // Condição para continuar o loop até o jogador ou computador ter o valor maior que tamanhoPista, que é 30
         } while ((jogador < tamanhoPista) && (computador < tamanhoPista));
 
         if (jogador > computador)

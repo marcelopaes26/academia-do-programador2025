@@ -28,7 +28,7 @@ public class Atividade02
     // Funçao para os eventos especiais (avanço e recuo)
     public static int EventosEspeciais(int posicao)
     {
-        // Criada duas listas (avanco e recuo) para adicionar seus respectivos valores condicionais
+        // Cria duas listas (avanco e recuo) para adicionar seus respectivos valores condicionais
         List<int> avanco = new List<int> {5, 10, 15};
         List<int> recuo = new List<int> {7, 13, 20};
 
@@ -53,7 +53,7 @@ public class Atividade02
     {
         int jogador = 0, computador = 0, rodada = 1;
         
-        // Criada uma constante com o valor fixo 30
+        // Cria uma constante com o valor fixo 30
         const int tamanhoPista = 30;
 
         do
